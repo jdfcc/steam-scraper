@@ -77,7 +77,7 @@ def load_product(response):
 
 class ProductSpider(CrawlSpider):
     name = 'products'
-    start_urls = ['http://store.steampowered.com/search/?sort_by=Released_DESC']
+    start_urls = ['https://store.steampowered.com/search/?supportedlang=schinese&category1=998&hidef2p=1&ndl=1']
 
     allowed_domains = ['steampowered.com']
 
