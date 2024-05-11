@@ -67,3 +67,7 @@ for url in urls:
     # 写入文件
     with open("output_detail.json", "a") as file:
         file.write(json_data + "\n")
+        
+        
+        
+        
